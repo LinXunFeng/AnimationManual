@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD601CD31DFCEF370067960D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD601CD21DFCEF370067960D /* main.m */; };
+		FD601CD61DFCEF370067960D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD601CD51DFCEF370067960D /* AppDelegate.m */; };
+		FD601CD91DFCEF370067960D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD601CD81DFCEF370067960D /* ViewController.m */; };
+		FD601CDC1DFCEF370067960D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD601CDA1DFCEF370067960D /* Main.storyboard */; };
+		FD601CDE1DFCEF370067960D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD601CDD1DFCEF370067960D /* Assets.xcassets */; };
+		FD601CE11DFCEF370067960D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD601CDF1DFCEF370067960D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD601CCE1DFCEF370067960D /* 07-CABasicAnimation基础核心动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-CABasicAnimation基础核心动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD601CD21DFCEF370067960D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD601CD41DFCEF370067960D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD601CD51DFCEF370067960D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD601CD71DFCEF370067960D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD601CD81DFCEF370067960D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD601CDB1DFCEF370067960D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD601CDD1DFCEF370067960D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD601CE01DFCEF370067960D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD601CE21DFCEF370067960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD601CCB1DFCEF370067960D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD601CC51DFCEF370067960D = {
+			isa = PBXGroup;
+			children = (
+				FD601CD01DFCEF370067960D /* 07-CABasicAnimation基础核心动画 */,
+				FD601CCF1DFCEF370067960D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD601CCF1DFCEF370067960D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD601CCE1DFCEF370067960D /* 07-CABasicAnimation基础核心动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD601CD01DFCEF370067960D /* 07-CABasicAnimation基础核心动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FD601CD41DFCEF370067960D /* AppDelegate.h */,
+				FD601CD51DFCEF370067960D /* AppDelegate.m */,
+				FD601CD71DFCEF370067960D /* ViewController.h */,
+				FD601CD81DFCEF370067960D /* ViewController.m */,
+				FD601CDA1DFCEF370067960D /* Main.storyboard */,
+				FD601CDD1DFCEF370067960D /* Assets.xcassets */,
+				FD601CDF1DFCEF370067960D /* LaunchScreen.storyboard */,
+				FD601CE21DFCEF370067960D /* Info.plist */,
+				FD601CD11DFCEF370067960D /* Supporting Files */,
+			);
+			path = "07-CABasicAnimation基础核心动画";
+			sourceTree = "<group>";
+		};
+		FD601CD11DFCEF370067960D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD601CD21DFCEF370067960D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD601CCD1DFCEF370067960D /* 07-CABasicAnimation基础核心动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD601CE51DFCEF370067960D /* Build configuration list for PBXNativeTarget "07-CABasicAnimation基础核心动画" */;
+			buildPhases = (
+				FD601CCA1DFCEF370067960D /* Sources */,
+				FD601CCB1DFCEF370067960D /* Frameworks */,
+				FD601CCC1DFCEF370067960D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-CABasicAnimation基础核心动画";
+			productName = "07-CABasicAnimation基础核心动画";
+			productReference = FD601CCE1DFCEF370067960D /* 07-CABasicAnimation基础核心动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD601CC61DFCEF370067960D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "林洵锋";
+				TargetAttributes = {
+					FD601CCD1DFCEF370067960D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD601CC91DFCEF370067960D /* Build configuration list for PBXProject "07-CABasicAnimation基础核心动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD601CC51DFCEF370067960D;
+			productRefGroup = FD601CCF1DFCEF370067960D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD601CCD1DFCEF370067960D /* 07-CABasicAnimation基础核心动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD601CCC1DFCEF370067960D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD601CE11DFCEF370067960D /* LaunchScreen.storyboard in Resources */,
+				FD601CDE1DFCEF370067960D /* Assets.xcassets in Resources */,
+				FD601CDC1DFCEF370067960D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD601CCA1DFCEF370067960D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD601CD91DFCEF370067960D /* ViewController.m in Sources */,
+				FD601CD61DFCEF370067960D /* AppDelegate.m in Sources */,
+				FD601CD31DFCEF370067960D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD601CDA1DFCEF370067960D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD601CDB1DFCEF370067960D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD601CDF1DFCEF370067960D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD601CE01DFCEF370067960D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD601CE31DFCEF370067960D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD601CE41DFCEF370067960D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD601CE61DFCEF370067960D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-CABasicAnimation基础核心动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LXF.-7-CABasicAnimation------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD601CE71DFCEF370067960D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-CABasicAnimation基础核心动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LXF.-7-CABasicAnimation------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD601CC91DFCEF370067960D /* Build configuration list for PBXProject "07-CABasicAnimation基础核心动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD601CE31DFCEF370067960D /* Debug */,
+				FD601CE41DFCEF370067960D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD601CE51DFCEF370067960D /* Build configuration list for PBXNativeTarget "07-CABasicAnimation基础核心动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD601CE61DFCEF370067960D /* Debug */,
+				FD601CE71DFCEF370067960D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD601CC61DFCEF370067960D /* Project object */;
+}

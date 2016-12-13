@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "上移"; ObjectID = "6sc-bi-HgM"; */
+"6sc-bi-HgM.normalTitle" = "上移";
+
+/* Class = "UIButton"; normalTitle = "下移"; ObjectID = "8gi-px-8fs"; */
+"8gi-px-8fs.normalTitle" = "下移";
+
+/* Class = "UIButton"; normalTitle = "缩放"; ObjectID = "OUw-1E-Uit"; */
+"OUw-1E-Uit.normalTitle" = "缩放";
+
+/* Class = "UIButton"; normalTitle = "旋转"; ObjectID = "x5a-4I-Vqi"; */
+"x5a-4I-Vqi.normalTitle" = "旋转";
